@@ -15,6 +15,8 @@
         public List<Project> Projects { get; set; } = new List<Project>();
         public List<Desk> Desks { get; set; } = new List<Desk>();
         public List<Task> Tasks { get; set; } = new List<Task>();
+        public UserStatus Status { get; set; }
+
 
     }
 }
